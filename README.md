@@ -14,20 +14,20 @@ The analysis answers the following questions:
 
 **Question:** What is the total explained variance of the three principal components?
 
-**Answer:** The total explained variance comes out to 0.89503166 or 89%.
+* **Answer:** The total explained variance comes out to 0.89503166 or 89%.
 
 
 **Question:** What is the best value for `k` when using the PCA data?
 
-  * **Answer:** The PCA data supports the K value of 4 as that is the sharpest change.
+* **Answer:** The PCA data supports the K value of 4 as that is the sharpest change.
 
 
-  **Question:** Does it differ from the best k value found using the original data?
+ **Question:** Does it differ from the best k value found using the original data?
 
   * **Answer:** No, both data points support a k value of 4 and mirror the same dwindling pattern after 7.
  
 
-  **Question:** After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
+ **Question:** After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
 
   * **Answer:** Using PCA results in a more condensed area of clusters while also highlighting outliers despite having the same amount of clusters in the original data. This can also mean that some nuanced information in the original dataset was lost in the transformation to PCA. Overall PCA is the preferred method in this analysis as it is structured more clearly and displays less noise giving a more abstract comparison.
  
